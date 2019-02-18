@@ -33,7 +33,7 @@ public class WireMockAnswer4 {
     }
 
     @Test
-    public void testExercise2Java() {
+    public void testExercise4Java() {
 
         setupStubExercise4();
 
@@ -48,7 +48,7 @@ public class WireMockAnswer4 {
     }
 
     @Test
-    public void testExercise2Json() {
+    public void testExercise4Json() {
 
         long responseTime =
 

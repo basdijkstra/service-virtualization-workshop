@@ -59,11 +59,20 @@ public class WireMockAnswer2 {
     @Test
     public void testExercise2Json() {
 
+        RestAssured.defaultParser = Parser.JSON;
+
+        String city =
+
         given().
         when().
             get("http://localhost:9876/lv/1050").
         then().
             assertThat().
-            statusCode(200);
+            statusCode(200).
+        and().
+            extract().
+            path("city");
+
+        Assert.assertEquals("Riga", city);
     }
 }

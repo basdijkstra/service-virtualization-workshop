@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/nz/9814"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 2000
+    }
+}

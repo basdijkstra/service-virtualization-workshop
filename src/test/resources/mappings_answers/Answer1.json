@@ -1,0 +1,9 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/nl/3825"
+    },
+    "response": {
+        "status": 200
+    }
+}
