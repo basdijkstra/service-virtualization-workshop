@@ -1,5 +1,3 @@
-package answers;
-
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.junit.Assert;
 import org.junit.Rule;
