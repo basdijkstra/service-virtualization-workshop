@@ -17,7 +17,7 @@ public class WireMockExamples {
         stubFor(get(urlEqualTo("/some/thing"))
             .willReturn(aResponse()
                 .withHeader("Content-Type", "application/json")
-                .withBody("\"key\": \"value\", \"another_key\", \"another_value\"")));
+                .withBody("{\"key\": \"value\", \"another_key\": \"another_value\"}")));
     }
 
     public void exampleGETerror() {
